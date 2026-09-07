@@ -1,39 +1,32 @@
 name: bookly_app
 description: "A new Flutter project."
 
-publish_to: 'none' 
-
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
   sdk: ^3.12.2
 
-
 dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^11.0.0
   get: ^4.7.3
 
 dev_dependencies:
-
-  
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 
-
 flutter:
 
- 
   uses-material-design: true
   assets:
     - assets/images/
 
- 
   fonts:
     - family: GT Sectra Fine
       fonts:
         - asset: assets/Fonts/GT Sectra Fine Regular.ttf
-     
